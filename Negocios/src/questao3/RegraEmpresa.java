@@ -4,12 +4,15 @@ public class RegraEmpresa {
 	
 	Empresa[] em = new Empresa[2];
 	
+	int i =0;
+	
 	public void regraEmpresa(Empresa empresa) {
 		
-		
-		for(int i=0;i<em.length;i++) {
+		if(i<em.length) {
 			
 			em[i] = empresa;
+			
+			i++;
 			
 		}
 
